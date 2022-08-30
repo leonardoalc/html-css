@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    
+    <h2><abbr title="Vídeos que estão hospedados no meu servidor!">Vídeos Hospedados Localmente</abbr></h2>
+    <h3>Renan Morrendo 30 fps</h3>
+    <video controls poster="imagens/renan-thumb.jpg" width="300" height="400">
+        <source src="midia/renan-otimizado-m4v.m4v" type="video/mp4">
+        <source src="midia/renan-otimizado-webm.webm" type="video/webm">
+        <p>Lamento, seu navegador não é compatível com nosso formatos de vídeo. &#x1F97A;</p>
+    </video>
+
+    <h3>Pombinhas 60 fps</h3>
+    <video controls width="300">
+        <source src="midia/60fps-otimizado-m4v.m4v" type="video/mp4">
+        <source src="midia/60fps-otimizado-webm.webm" type="video/webm">
+        <p>Lamento, seu navegador não é compatível com nosso formatos de vídeo. &#x1F97A;</p>
+    </video>
+
+    <h2><abbr title="Vídeos que são hospedados em outros sites"></abbr>Vídeos Hospedados Externamente</h2>
+    <h3>Unboxing e Teste RTX 2060 6GB <img src="imagens/youtube-icon.png" alt="youtube icon"></h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i-o0J6Vbv_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <h3>Unboxing RTX 3090 ZOTAC <img src="imagens/vimeo-icon.png" alt="vimeo icon"></h3>
+    <iframe src="https://player.vimeo.com/video/457304309?h=66d2692479&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <h3>Unboxing RX 6700XT <img src="imagens/facebook-icon.png" alt="facebook icon"></h3>
+    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funboxingenthusiast%2Fvideos%2F126295456253513%2F&width=560&show_text=false&height=315&appId" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightslategrey;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 8.67em;
+    width: 8.67em;
+
+    border: 3px;
+    border-style: solid;
+    background-color: lightsalmon;
+    border-color: aqua;
+    
+    padding: 5px;
+
+    margin: 3em auto 3em auto;
+
+    outline: 1px solid black;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.37em;
+}
+
+a {
+    border: 2px;
+    border-style: dotted;
+
+    padding: 1px;
+
+    margin: 1em;
+}

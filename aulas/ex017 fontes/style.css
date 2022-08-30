@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em; /*1em = 16px. que é o padrão*/
+    font-weight: normal;
+    background-color: #15202B;
+    text-align: center;
+}
+p {font-style: italic; color: white}
+h1, h2 {text-decoration: underline; color: white;}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+a{
+    color: lightblue;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(43, 202, 255);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+a:active {
+    color: darkred;
+    text-decoration: none;
+}

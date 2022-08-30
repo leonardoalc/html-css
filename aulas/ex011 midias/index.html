@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Utilizando Imagens Dinâmicas</h1>
+    <h2>Reduza o tamanho do navegador</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-g.jpg" alt="imagem grandona pae">
+    </picture>
+    <h1>Sonic Cropado</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/sonic-otimizado-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/sonic-otimizado-m.jpg" type="image/jpg">
+        <img src="imagens/sonic-otimizado-g.jpg" alt="imagem flexível do Sonic">
+    </picture>
+    <p>&lt;<strong>1</strong> <a href="pg002.html" rel="next">2</a>&gt;</p>
+</body>
+</html>
