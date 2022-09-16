@@ -10,6 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
             text-align: center;
@@ -19,8 +20,18 @@
             padding: 5px;
         }
         thead, tfoot {
-            background-color: #EAECF0;
-            box-shadow: inset 0px 0px 10px 1px #0000003d;
+            background-color: rgb(117, 92, 116);
+            box-shadow: inset 0px 0px 10px 1px #00000033;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(117, 92, 116);
+            box-shadow: inset 0px 0px 10px 1px #00000033;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
     </style>
 </head>
