@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        fieldset {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <div>
+                <input type="color" name="cor" id="icor" value="#00ff00">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="inivel">Nível de satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10" value="5">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="ifoto">Foto do perfil</label><br>
+                <input type="file" name="foto" id="ifoto">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
