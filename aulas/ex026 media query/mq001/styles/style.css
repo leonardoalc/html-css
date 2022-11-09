@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+header {
+    background-color: lightcoral;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: coral;
+}
+menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(253, 95, 38);
+}
+article {
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+}
