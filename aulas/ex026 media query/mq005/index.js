@@ -1,14 +1,6 @@
 const itens = document.getElementById("itens")
 let menuOpn = false
-const corpo = window.document.body
-const corpo_observer = new ResizeObserver((entries) => {
-    if (window.innerWidth >= 768) {
-        itens.style.display = "block"
-    } else {
-        itens.style.display = "none"
-    }
-})
-corpo_observer.observe(corpo)
+
 burguer.addEventListener("click", () => {
     if (!menuOpn) {
         itens.setAttribute("class", "aberto")
@@ -18,3 +10,22 @@ burguer.addEventListener("click", () => {
         menuOpn = false
     }
 })
+const corpo = window.document.body
+let confirm = true
+const corpo_observer = new ResizeObserver(() => {
+    console.log("3")
+    if (window.innerWidth >= 768) {
+        itens.setAttribute("class", "aberto")
+        menuOpn = true
+        confirm = true
+        console.log("2")
+    } else {
+        if (confirm) {
+            itens.setAttribute("class", "fechado")
+            menuOpn = false
+            confirm = false
+            console.log("1")
+        }
+    }
+})
+corpo_observer.observe(corpo)
