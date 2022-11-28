@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+section {
+    width: 90vw;
+    height: 450px;
+
+    text-align: center;
+
+    border: 1px solid black;
+}
+.botao {
+    width: 250px;
+    padding: 7px;
+}
