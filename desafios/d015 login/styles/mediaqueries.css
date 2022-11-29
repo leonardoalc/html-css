@@ -1,0 +1,11 @@
+@charset "UTF-8"; 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 90vw;
+    }
+    #imagem {
+        background-size: cover;
+        background-position: left center;
+    }
+}

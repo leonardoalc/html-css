@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/mediaqueries.css">
     <title>Login</title>
 </head>
 <body>
     <main> 
         <section>
-            <div>
-                <!--<img src="images/predios.jpg" alt="predios">-->
+            <div id="imagem">
+                <!--imagem sendo contida aqui-->
             </div>
-            <div>
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
                 <form action="login.php" method="post">
-                    <div id="dados">
+                    <div class="dados-container">
                         <label for="iemail"><i class="fa-solid fa-user"></i></label>
-                        <input type="text" name="email" id="iemail" required autocomplete="email"><br>
-
+                        <input type="text" name="email" id="iemail" required autocomplete="email" class="data-input"><br>
+                    </div>
+                    <div class="dados-container">
                         <label for="isenha"><i class="fa-solid fa-lock"></i></label>
-                        <input type="password" name="senha" id="isenha" required autocomplete="current-password">
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" class="data-input">
                     </div>
                     <div id="botoes">
-                        <button type="submit" class="botao">Entrar</button><br>
-                        <button class="botao">Esqueci minha senha<i class="fa-solid fa-envelope"></i></button>
+                        <button type="submit" class="botao" id="entrar">Entrar</button><br>
+                        <button class="botao" id="esqueci-senha">Esqueci minha senha<i class="fa-solid fa-envelope"></i></button>
                     </div>
                 </form>
             </div>
