@@ -56,9 +56,10 @@ section {
 
     box-sizing: content-box;
 
-    padding-top: 2px;
-    padding-bottom: 2px;
-
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    
     border-radius: 5px;
 
     height: 25px;
@@ -66,9 +67,24 @@ section {
 .data-input {
     width: 230px;
     height: 25px;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: rgb(184, 253, 230);
+
+    text-indent: 5px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+    color: white;
+}
+.data-input:focus-within{
+    background-color: white;
+    color: black;
 }
 label i {
     color: aliceblue;
+    padding-left: 2px;
 }
 #botoes {
     margin-top: 10px;
