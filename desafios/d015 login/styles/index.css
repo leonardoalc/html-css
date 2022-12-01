@@ -47,8 +47,6 @@ section {
 .dados-container {
     background-color: #5F2C82;
 
-    margin-top: 5px;
-
     width: 255px;
 
     margin: auto;
@@ -74,9 +72,9 @@ section {
     background-color: rgb(184, 253, 230);
 
     text-indent: 5px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-
-    color: white;
+}
+.data-input::placeholder {
+    color: gray;
 }
 .data-input:focus-within{
     background-color: white;
@@ -105,20 +103,22 @@ label i {
     font-size: 0.8em;
 }
 #entrar {
-    background-color: aquamarine;
+    background-color: rgb(100, 207, 172);
 
     color: white;
 
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 }
+#entrar:hover {
+    background-color: #238380;
+}
 #esqueci-senha {
     margin-top: 5px;
 
-    border: 2px solid aquamarine;
+    border: 2px solid #238380;
 
-    color: aquamarine;
+    color: #238380;
 }
 #esqueci-senha > i {
     margin-left: 5px;
-
 }

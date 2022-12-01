@@ -8,4 +8,54 @@
         background-size: cover;
         background-position: left center;
     }
+    #imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    #formulario {
+        margin-top: 99px;
+        float: right;
+        width: 65%;
+    }
+    .dados-container {
+    
+        width: 395px;
+        height: 30px;
+    }
+    .data-input {
+        width: 370px;
+        height: 30px;
+    }
+    .botao {
+        width: 400px;
+        height: 38px;
+    }
+}
+@media screen and (min-width: 992px) {
+    section {
+        width: 900px;
+    }
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario {
+        margin-top: 11%;
+        float: left;
+        width: 50%;
+    }
+    .dados-container {
+        width: 395px;
+        height: 30px;
+    }
+    .data-input {
+        width: 370px;
+        height: 30px;
+    }
+    .botao {
+        width: 400px;
+        height: 38px;
+    }
 }
